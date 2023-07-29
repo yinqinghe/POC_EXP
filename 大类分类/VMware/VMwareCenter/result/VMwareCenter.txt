@@ -1,0 +1,8 @@
+http://100.42.78.225/idm/..;/mikes.jsp        7814
+http://51.81.211.156/idm/..;/mikes.jsp        7814
+
+
+http://100.42.78.225/idm/..;/mikes.jsp        7814
+http://51.81.211.156/idm/..;/mikes.jsp        7814
+http://100.42.78.225/idm/..;/m.jsp        7814
+http://51.81.211.156/idm/..;/m.jsp        7814

